@@ -1,5 +1,4 @@
-// import './App.css';
-import './css/main.css';
+import './App.css';
 import { ShopItemFunc } from './Components/ShopItemFunc';
 
 
