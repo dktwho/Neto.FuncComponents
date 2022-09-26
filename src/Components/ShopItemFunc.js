@@ -1,8 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 
-
-export const ShopItemFunc = () => {
+ export  function ShopItemFunc  ()  {
  
   const item = {
     brand: 'Tiger of Sweden',
@@ -32,4 +32,9 @@ export const ShopItemFunc = () => {
 
   )
 }
+
+ShopItemFunc.propTypes = {
+  items: PropTypes.object
+}
+
 
