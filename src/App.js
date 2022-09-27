@@ -2,7 +2,17 @@ import './App.css';
 import { ShopItemFunc } from './Components/ShopItemFunc';
 
 
+const item = {
+  brand: 'Tiger of Sweden',
+  title: 'Leonard coat',
+  description: 'Minimalistic coat in cotton-blend',
+  descriptionFull: 'Men\'s minimalistic overcoat in cotton-blend. Features a stand-up collar, concealed front closure and single back vent. Slim fit with clean, straight shape. Above-knee length.',
+  price: 399,
+  currency: '£'
+}
+
 function App(props) {
+
   
   return (
     
@@ -14,11 +24,12 @@ function App(props) {
         <div className='highlight-overlay'></div>
       </div>
       <div className="window">
-        <ShopItemFunc item={props} />
+        <ShopItemFunc item={item} />
         
       </div>
     </div>
   )
 }
 
-export default App;
+
+export {App, item};

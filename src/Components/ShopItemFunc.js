@@ -1,19 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-
+import {item} from '../App';
+import '../App.css'
 
  export  function ShopItemFunc  ()  {
  
-  const item = {
-    brand: 'Tiger of Sweden',
-    title: 'Leonard coat',
-    description: 'Minimalistic coat in cotton-blend',
-    descriptionFull: 'Men\'s minimalistic overcoat in cotton-blend. Features a stand-up collar, concealed front closure and single back vent. Slim fit with clean, straight shape. Above-knee length.',
-    price: 399,
-    currency: '£'
-  }
 
-  
   return (
     <div class="main-content">
     <h2>{item.brand}</h2>
