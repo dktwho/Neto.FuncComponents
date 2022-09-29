@@ -11,12 +11,10 @@ const item = {
   currency: '£'
 }
 
-function App(props) {
+function App() {
 
-  
   return (
-    
-    
+ 
     <div className="container">
       <div className="background-element">
       </div>
@@ -32,4 +30,4 @@ function App(props) {
 }
 
 
-export {App, item};
+export {App};
